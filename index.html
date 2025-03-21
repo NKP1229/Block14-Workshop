@@ -4,9 +4,58 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Stats</title>
+    <style>
+      body {
+        height: 100vh;
+        background-color: rgba(40, 27, 60, 0.7);
+        align-content: center;
+        text-align: center;
+      }
+      main {
+        background-color: tan;
+        width: 70%;
+        height: 80%;
+        border: 2px solid white;
+        border-radius: 5% 35% 5% 35%;
+        margin: 0 auto;
+        align-content: center;
+      }
+      h1 {
+        color: snow;
+        text-shadow: 1px 1px 1px black;
+      }
+      section {
+        height: 70%;
+        width: 85%;
+        margin: 0 auto;
+      }
+      h3 {
+        display: inline-block;
+      }
+    </style>
     <script src="index.js" defer></script>
   </head>
   <body>
-    <h1>Look at the console :)</h1>
+    <main>
+      <h1>Here are the results:</h1>
+      <section>
+        <h3>Total Numbers:</h3>
+        <p id="total">N/A</p>
+        <h3>Sum:</h3>
+        <p id="sum">N/A</p>
+        <h3>Mean:</h3>
+        <p id="mean">N/A</p>
+        <h3>Smallest:</h3>
+        <p id="small">N/A</p>
+        <h3>Largest:</h3>
+        <p id="large">N/A</p>
+        <h3>Range:</h3>
+        <p id="range">N/A</p>
+        <h3>Even:</h3>
+        <p id="even">N/A</p>
+        <h3>Odd:</h3>
+        <p id="odd">N/A</p>
+      </section>
+    </main>
   </body>
 </html>
