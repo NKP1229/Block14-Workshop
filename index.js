@@ -133,5 +133,20 @@ function getOdds(numbers) {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-  document.getElementById("contact");
+  const total = document.getElementById("total");
+  const sum = document.getElementById("sum");
+  const mean = document.getElementById("mean");
+  const small = document.getElementById("small");
+  const large = document.getElementById("large");
+  const range = document.getElementById("range");
+  const even = document.getElementById("even");
+  const odd = document.getElementById("odd");
+  total.textContent = `You have given ${getLength(numbers)} numbers.`;
+  sum.textContent = `The sum of your numbers is ${getSum(numbers)}.`;
+  mean.textContent = `The mean of your numbers is ${getMean(numbers)}.`;
+  small.textContent = `The smallest of your numbers is ${getMin(numbers)}.`;
+  large.textContent = `The largest of your numbers is ${getMax(numbers)}.`;
+  range.textContent = `The range of your numbers is ${getRange(numbers)}.`;
+  even.textContent = `The even numbers you gave are ${getEvens(numbers)}.`;
+  odd.textContent = `The odd numbers you gave are ${getOdds(numbers)}.`;
 });
