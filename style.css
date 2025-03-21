@@ -1,0 +1,30 @@
+body {
+  height: 100vh;
+  background-color: rgba(40, 27, 60, 0.7);
+  align-content: center;
+  text-align: center;
+}
+main {
+  background-color: tan;
+  width: 45%;
+  height: 70%;
+  border: 2px solid white;
+  border-radius: 5% 35% 5% 35%;
+  margin: 0 auto;
+  align-content: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+h1 {
+  color: snow;
+  text-shadow: 1px 1px 1px black;
+  margin-top: 10%;
+}
+section {
+  height: 70%;
+  width: 85%;
+  margin: 0 auto;
+}
+h3 {
+  display: inline;
+}
